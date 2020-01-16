@@ -3,12 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gotransverse.eps</groupId>
 	<artifactId>school-management</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>${skool.version}</version>
 	<packaging>pom</packaging>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<skool.version>1.0-SNAPSHOT</skool.version>
 	</properties>
 	
 	<modules>
