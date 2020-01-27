@@ -20,6 +20,9 @@ public class Student  extends BaseEntity{
 	@Column(name= "roll_number")
 	private long rollNumber ;
 	
+	@Column(name= "is_deleted")
+	private boolean isDeleted ;
+	
 	public String getFirstName() {
 		return firstName;
 	}
@@ -42,6 +45,14 @@ public class Student  extends BaseEntity{
 
 	public void setRollNumber(long rollNumber) {
 		this.rollNumber = rollNumber;
+	}
+
+	public boolean isDeleted() {
+		return isDeleted;
+	}
+
+	public void setDeleted(boolean isDeleted) {
+		this.isDeleted = isDeleted;
 	}
 
 }
